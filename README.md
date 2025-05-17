@@ -53,4 +53,15 @@ Input ➝ Transformer ➝ TokenLearner ───┘
 python ids_detection.py
 
 
+## 📚 Citation
+
+If you use this work in your research, please cite it as:
+
+@misc{tokenids2025,
+  title={TokenIDS: Lightweight Transformer-CNN Hybrid for Intrusion Detection on NSL-KDD},
+  author={Your Name},
+  year={2025},
+  note={GitHub repository: https://github.com/yourusername/tokenids}
+}
+
 
