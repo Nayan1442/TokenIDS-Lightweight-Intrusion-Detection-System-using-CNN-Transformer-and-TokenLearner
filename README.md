@@ -32,12 +32,25 @@ Intrusion Detection Systems (IDS) are critical for ensuring cybersecurity in net
 We use the **NSL-KDD** dataset:
 - [KDDTrain+.txt](https://www.unb.ca/cic/datasets/nsl.html)
 - Categorical features are one-hot encoded
-- Features scaled using `RobustScaler`
+- Features scaled using RobustScaler
 
 ## 🏗️ Architecture
 
 Input ➝ CNN ➝ SE Block ➝ TokenLearner ┐
 ├── Cross-Attention ➝ Pooling ➝ Dense ➝ Output
 Input ➝ Transformer ➝ TokenLearner ───┘
+
+
+## 🧪 How to Run
+
+### Prerequisites
+
+- Python ≥ 3.7
+- TensorFlow ≥ 2.10
+- pandas, numpy, sklearn, seaborn, matplotlib
+
+### Training
+python ids_detection.py
+
 
 
